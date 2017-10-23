@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>
+			Football Ranking System - Add Player
+		</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>﻿
+		<script src="./assets/frs.js"></script>
+<!-- 		<link href="/assets/styles.css" rel="stylesheet" type="text/css" /> -->
+	</head>
+	<body>
+		<div id="">
+			<form>
+				<input type ="text" name="playerName" placeholder="addNewPlayer" required />
+				<button type="submit">Add Player</button>
+			</form>
+			<ul>
+				<% for(var i = 0; i < players.length; i++) { %>
+					<li>
+						<%= players[i].playerName %>
+					</li>
+				<% } %>
+			</ul>
+		</div>
+
+	</body>
+
+</html>
