@@ -55,6 +55,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "public/assets/frs.js",
+			"settings":
+			{
+				"buffer_size": 772,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/addPlayer.js",
+			"settings":
+			{
+				"buffer_size": 559,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/addPlayer.ejs",
+			"settings":
+			{
+				"buffer_size": 632,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,10 +115,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/tom/Documents/projects/footballRankingSystem"
+		"/home/tom/Documents/projects/footballRankingSystem",
+		"/home/tom/Documents/projects/footballRankingSystem/controllers",
+		"/home/tom/Documents/projects/footballRankingSystem/public",
+		"/home/tom/Documents/projects/footballRankingSystem/public/assets"
 	],
 	"file_history":
 	[
+		"/home/tom/Documents/projects/footballRankingSystem/assets/frs.js",
+		"/home/tom/Documents/projects/footballRankingSystem/assets/style.css",
+		"/home/tom/Documents/projects/footballRankingSystem/app.js",
+		"/home/tom/Documents/projects/footballRankingSystem/package.json",
 		"/home/tom/Desktop/array-practise.html",
 		"/home/tom/Desktop/plemionaChecker.html",
 		"/home/tom/Desktop/array-test.html",
@@ -134,8 +168,95 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/assets/frs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "controllers/addPlayer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/addPlayer.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -145,7 +266,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{

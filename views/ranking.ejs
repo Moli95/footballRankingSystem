@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>
+			Football Ranking System - Ranking
+		</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>﻿
+<!-- 		<link href="/assets/styles.css" rel="stylesheet" type="text/css" /> -->
+	</head>
+	<body>
+		<div id="">
+			<table>
+				<% for(var i=0; i < players.length; i++) { %>
+				<tr>
+					<td>
+						<%= players[i].playerName %>
+					</td>
+					<td>
+						<%= players[i].points %>
+					</td>
+				</tr>
+				<% } %>
+			</table>
+		</div>
+
+	</body>
+
+</html>
